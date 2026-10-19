@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "experiment": "versioning",
+        "author": "test",
+        "version": "1.0.0"
+    },
+    "partitions": [
+        {"attribute": "dd_version", "selector": "exact"},
+        {"attribute": "shot", "selector": "max_below"}
+    ],
+    "groups": [
+	"partition-test"
+    ]
+}

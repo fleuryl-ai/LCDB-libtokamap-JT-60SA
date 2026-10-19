@@ -1,0 +1,10 @@
+{
+    "device": {
+        "map_type": "VALUE",
+        "value": "DEVICE_LEGACY"
+    },
+    "dd_version": {
+    	"map_type": "VALUE",
+	"value": "4.1.1"
+    }
+}

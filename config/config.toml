@@ -1,0 +1,4 @@
+mapping_directory = "mappings"
+schemas_directory = "schemas"
+trace_enabled = true
+cache_enabled = false

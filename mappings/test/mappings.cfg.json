@@ -1,0 +1,9 @@
+{
+    "metadata": {
+        "experiment": "test",
+        "author": "test",
+        "version": "1.0.0"
+    },
+    "partitions": [],
+    "groups": ["lcdb"]
+}

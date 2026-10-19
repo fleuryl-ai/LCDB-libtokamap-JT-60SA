@@ -1,0 +1,58 @@
+{
+    "device": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "DEVICE"
+        }
+    },
+    "t2": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "T2"
+        }
+    },
+    "exdb": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "EXDB"
+        }
+    },
+    "xexpdata": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "XEXPDATA"
+        }
+    },
+    "profiles_1d(#)/electrons/temperature(#)": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "XEXPDATA"
+	}
+    },
+    "nexpdata": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "NEXPDATA"
+        }
+    },
+    "shotno": {
+        "map_type": "DATA_SOURCE",
+        "data_source": "LCDB",
+        "args": {
+            "category": "{{ category }}",
+            "name": "SHTNO"
+	}
+    }
+}
